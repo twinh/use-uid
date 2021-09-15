@@ -12,3 +12,7 @@ export default (prefix, defaults) => {
   });
   return id;
 };
+
+export const reset = () => {
+  counter = 0;
+}
